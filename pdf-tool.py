@@ -188,12 +188,12 @@ def init_simple():
         args.start = input(
             "Enter the starting page to split from (1-"
             + str(get_pdf_page_count(args.input))
-            + ")"
+            + "): "
         )
         args.end = input(
             "Enter the end page you want to split to (1-"
             + str(get_pdf_page_count(args.input))
-            + ")"
+            + "): "
         )
         args.merge = input(
             "Do you want to merge the extracted pages into a single PDF? (yes/no): "
